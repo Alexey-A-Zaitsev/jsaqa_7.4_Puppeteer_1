@@ -52,43 +52,6 @@ describe("Github page tests", () => {
 });
 
 // Задание 2
-// test(
-//   "GitHub for enterprises",
-//   async () => {
-//     await page.goto("https://github.com/enterprise");
-//     await page.waitForSelector("h1");
-//     const title = await page.title();
-//     expect(title).toEqual(
-//       "Enterprise · A smarter way to work together · GitHub"
-//     );
-//   },
-//   timeoutTest
-// );
-
-// test(
-//   "GitHub Actions Cheat Sheet",
-//   async () => {
-//     await page.goto(
-//       "https://resources.github.com/actions/github-actions-cheat/"
-//     );
-//     await page.waitForSelector("h1");
-//     const title = await page.title();
-//     expect(title).toEqual("GitHub Actions Cheat Sheet - GitHub Resources");
-//   },
-//   timeoutTest
-// );
-
-// test(
-//   "GitHub Actions Cheat Sheet",
-//   async () => {
-//     await page.goto("https://github.com/customer-stories/front");
-//     await page.waitForSelector("h1");
-//     const title = await page.title();
-//     expect(title).toEqual("Front · GitHub");
-//   },
-//   timeoutTest
-// );
-
 const data = [
   [
     "https://github.com/enterprise",
